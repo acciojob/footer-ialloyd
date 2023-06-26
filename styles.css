@@ -50,12 +50,12 @@ body{
 	display:flex;
 	justify-content:space-around;
 	align-items:center;
+	margin-inline:-8vw;
 }
 
 .logo_name{
 
 	font-size:35px;
-
 }
 
 .link-boxes{

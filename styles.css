@@ -11,12 +11,13 @@ body{
 }
 
 .fa {
-  
+
   width: 25px;
   text-align: center;
   text-decoration: none;
   padding:15px;
   border-radius:50%;
+  
   
 }
 .fa-facebook {
@@ -82,9 +83,11 @@ li a{
 	
 }
 
-.media-icons a{
+.media-icons{
 
-	margin-right:10px;
+	display:flex;
+	flex-direction:row;
+	
 }
 
 .links{
@@ -110,6 +113,10 @@ li{
 	background-color:rgb(44,48,58);
 	color:grey;
 	padding:25px;
+}
+
+a{
+	margin-right:10px;
 }
 
 
